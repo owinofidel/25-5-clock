@@ -1,5 +1,5 @@
 # 25-5-clock
-
+<base target="_blank">
 This is a freeCodeCamp project that uses the pomodoro technique 
 
 On initial load the user can set the "session length" and the "break length" which will later be used in the countdown timer 
