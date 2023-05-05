@@ -15,7 +15,6 @@ let timer = document.getElementById("timer").classList
 let restTime =`${Number(restValue.textContent)}`
 let sessionTime = `${Number(session.textContent)}`
 
-
 let toggle = false
 
 timeLeft.innerHTML = `${sessionTime}:00`
@@ -190,6 +189,7 @@ const playPauseFunction = () => {
 // resets or rather puts the apps elements back to their default values
 
 const resetFunction = () => {
+    label.textContent = "Session"
     timer.remove("danger")
     toggle = false
     stopTimer()
@@ -200,9 +200,7 @@ const resetFunction = () => {
     restTime = 5
     session.innerHTML = sessionTime
     restValue.innerHTML = restTime
-    timeLeft.innerHTML = `${sessionTime}:00`
-    console.log(timeLeft.innerHTML.split(":"))
-    
+    timeLeft.innerHTML = `${sessionTime}:00` 
 }
 
 
