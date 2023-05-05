@@ -189,10 +189,10 @@ const playPauseFunction = () => {
 // resets or rather puts the apps elements back to their default values
 
 const resetFunction = () => {
-    label.textContent = "Session"
     timer.remove("danger")
     toggle = false
     stopTimer()
+    label.textContent = "Session"
     toggleOn()
     toggleOff()
     audio.load()
