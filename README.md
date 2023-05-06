@@ -11,6 +11,6 @@ On initial load the user can set the "session length" and the "break length" whi
 
 Once the timer is started it never stops unless the page is reloaded or the reset button is pressed
 
-##Live project 
+## Live project 
 
 Here is a link of the working project [Pomodoro-clock](https://owinofidel.github.io/25-5-clock/)
