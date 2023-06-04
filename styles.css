@@ -108,7 +108,7 @@ button:hover {
     margin: 20px auto;
     font-family: 'Rubik', sans-serif;
     color: rgba(12, 11, 11, 0.9);
-}
+} use
 
 .author span a {
     text-decoration: none;
@@ -117,4 +117,10 @@ button:hover {
 
 .danger{
     color: rgb(204, 18, 18)
+}
+
+@media (max-width: 480px){
+   .title{
+      width: 90vw;
+    }
 }
