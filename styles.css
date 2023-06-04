@@ -119,8 +119,9 @@ button:hover {
     color: rgb(204, 18, 18)
 }
 
-@media (max-width: 480px){
+/* @media (max-width: 480px){
    . timer {
       width: 80%;
     }
-}
+} 
+*/
