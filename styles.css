@@ -120,7 +120,7 @@ button:hover {
 }
 
 @media (max-width: 480px){
-   .title{
-      width: 90vw;
+   . timer {
+      width: 80%;
     }
 }
