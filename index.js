@@ -47,6 +47,12 @@ const restIncrementFunction = () => {
     if(restTime > 0 && restTime < 60){
         restTime = restTime + 1;
         restValue.innerHTML = restTime
+        let currSess = label.textContent
+
+        if(currSess == "Break") {
+          session.innerHtml = restTime;
+        }
+
         return 
     } else {
         return
@@ -59,6 +65,10 @@ const restDecrementFunction = () => {
     if(restTime > 1 && restTime <= 60){
         restTime = restTime - 1;
         restValue.innerHTML = restTime
+        let currSess = label.textContent;
+        if(currSess == "Break") {
+          session.innerHtml = restTime;
+        }
         return 
     } else {
         return
